@@ -1,0 +1,13 @@
+# Simulink auto files
+*.asv
+*.autosave
+*.slxc
+*.slx.autosave
+*.mex*
+*.mdl.autosave
+*.mat
+*.log
+*.slprj/
+*.simlog/
+*.cache/
+*.DS_Store
