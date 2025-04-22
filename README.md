@@ -1,7 +1,6 @@
 # onboard-flight-control-software ver 1.1
 
 ## 📌 개발 목표
-=======
 
 Lift & Cruise 형식 VTOL 기체를 위한 MATLAB Simulink 기반 모델링 및 비행제어기 설계 프로젝트입니다.  
 UAV Toolbox와 Model-Based Design(MBD)을 활용해 실기체 적용이 가능한 고신뢰성 제어 시스템 개발을 목표로 합니다.
