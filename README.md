@@ -1,8 +1,7 @@
-# UAM_Flight_control Project
+# onboard-flight-control-software ver 1.1
 
 ## 개발목표
 Lift & Cruise 형식 VTOL 기체 모델링 및 비행제어기 개발 프로젝트  
-(MATLAB Simulink UAV Toolbox 기반)
 
 
 ##  파일 구조
