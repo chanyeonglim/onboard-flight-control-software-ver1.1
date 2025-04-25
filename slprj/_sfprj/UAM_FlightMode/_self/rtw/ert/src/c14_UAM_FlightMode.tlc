@@ -1,0 +1,88 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   10 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c14_UAM_FlightMode"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_GuidanceLogic"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "GuidanceLogic"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_BackTransition"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "GuidanceLogic.BackTransition"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_FIXED_WING_ENTRY"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "GuidanceLogic.FIXED_WING_ENTRY"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_FIXED_WING_ORBIT"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "GuidanceLogic.FIXED_WING_ORBIT"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_FIXED_WING_WAYPOINT"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "GuidanceLogic.FIXED_WING_WAYPOINT"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Land"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "GuidanceLogic.Land"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "mode_prev"\
+      Description  "ChangeDetectionDoubleBuffer"\
+      SFName       ""\
+      Path         "mode"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "mode_start"\
+      Description  "ChangeDetectionDoubleBuffer"\
+      SFName       ""\
+      Path         "mode"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

@@ -1,0 +1,7 @@
+-IC:/Users/USER/Desktop/onboard-flight-control-software-ver1.1-dev
+-IC:/Users/USER/Desktop/onboard-flight-control-software-ver1.1-dev/UAM_GCS_ert_rtw
+-I"C:/Program Files/MATLAB/R2024b/extern/include"
+-I"C:/Program Files/MATLAB/R2024b/simulink/include"
+-I"C:/Program Files/MATLAB/R2024b/rtw/c/src"
+-I"C:/Program Files/MATLAB/R2024b/rtw/c/src/ext_mode/common"
+-I"C:/Program Files/MATLAB/R2024b/rtw/c/ert"

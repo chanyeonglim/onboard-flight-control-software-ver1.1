@@ -1,0 +1,5 @@
+rtGetInf.obj
+rtGetNaN.obj
+rt_atan2d_snf.obj
+rt_modd_snf.obj
+rt_nonfinite.obj
