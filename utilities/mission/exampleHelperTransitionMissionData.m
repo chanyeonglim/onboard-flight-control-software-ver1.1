@@ -27,5 +27,5 @@ TransitionMission(7).params = [-1; -1; -1;-1];
 TransitionMission(8)=struct('mode',2,'position',[300,300,-20]','params',[0;0;0;0]);
 TransitionMission(9)=struct('mode',4,'position',[300,300,0]','params',[0;0;0;0]);
 load_system('UAM_GCS');
-set_param('UAM_GCS/Get Flight Mission/noQGC/Mission', 'PortDimensions', '9')
+set_param('UAM_GCS/Get Flight Mission/noQGC/Mission', 'PortDimensions', '8')
 
